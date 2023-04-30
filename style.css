@@ -1,0 +1,66 @@
+
+    h1,h2,h4{
+        font-family: Roboto, sans-serif;
+    }
+    
+    h3{
+        font-family: Noto Sans, sans-serif;
+    }
+    span{
+        font-family: Noto Sans, sans-serif;
+        font-size: 2em;
+    }
+.firstPage{
+    display: flex;
+    flex-wrap: wrap;
+    padding:2em 2em 1em 2em;
+}
+.first{
+    width: 50%;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:1em 2em;
+}
+
+.skills{
+    padding-top:2em;
+    text-align: center;
+}
+.badges{
+    display: flex;
+    justify-content: space-between;
+}
+.badges > img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.secondPage {
+    text-align: center;
+    font-family: Roboto;
+}
+.secondPage p{
+    padding:1em 2em 1em 2em;
+}
+.about{
+    padding:0em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2em;
+}
+.about>img{
+    width: 20%;
+}
+ 
+
+@media (max-width:770px){
+   .intro{
+    order:1;
+    text-align: center;
+   }
+
+}
